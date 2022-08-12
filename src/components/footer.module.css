@@ -1,0 +1,8 @@
+.lincenc{
+    height:25px;
+    display:flex;
+    justify-content:center;
+    background-color:rgb(159,159,159);
+    align-items:center;
+    margin: 0 !important;
+}

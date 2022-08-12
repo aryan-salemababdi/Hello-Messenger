@@ -1,0 +1,36 @@
+.container{
+    height:50px;
+    background-color:#f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+}
+.nameproject{
+    color: rgb(93, 93, 93);
+    font-size: 1.5rem;
+}
+.container button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    border:0;
+    border-radius:5px;
+    font-size:1rem;
+    padding:10px;
+    border-color: #ffffff;
+    background-color: green;
+    color: #fff;
+    margin:0 auto;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.container button:hover{
+    background: #07713e;
+}
+@media (max-width:760px) {
+    .container button{
+        margin: 0px 5px;
+    }
+}
